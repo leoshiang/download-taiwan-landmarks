@@ -1,0 +1,38 @@
+{
+  "name": "get-taiwan-landmarks",
+  "version": "1.0.0",
+  "description": "擷取台灣常用的地標，例如：便利商店、連鎖店、超市、公車站牌...。 ",
+  "main": "下載711門市.js",
+  "dependencies": {
+    "base64-js": "^1.5.1",
+    "buffer": "^5.7.1",
+    "child_process": "^1.0.2",
+    "dotenv": "^16.0.0",
+    "fast-xml-parser": "^4.0.3",
+    "fs": "^0.0.1-security",
+    "ieee754": "^1.2.1",
+    "jssha": "^3.2.0",
+    "node-fetch": "^2.6.7",
+    "node-html-parser": "^5.2.0",
+    "selenium-webdriver": "^4.1.1",
+    "sleep": "^6.3.0",
+    "strnum": "^1.0.5",
+    "sync-fetch": "^0.3.1",
+    "tr46": "^0.0.3",
+    "webidl-conversions": "^3.0.1",
+    "whatwg-url": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoshiang/download-taiwan-landmarks"
+  },
+  "author": "向皓田",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leoshiang/download-taiwan-landmarks/issues"
+  },
+  "homepage": "https://github.com/leoshiang/download-taiwan-landmarks#readme"
+}
